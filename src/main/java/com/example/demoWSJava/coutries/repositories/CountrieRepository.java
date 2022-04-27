@@ -2,8 +2,8 @@ package com.example.demoWSJava.coutries.repositories;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
-import com.example.demoWSJava.coutries.models.Countrie;
+import com.example.demoWSJava.coutries.entities.Countrie;
 
-public interface CoutrieRepository extends JpaRepository<Countrie, Long> {
+public interface CountrieRepository extends JpaRepository<Countrie, Long> {
 	Countrie findById(long id);
 }

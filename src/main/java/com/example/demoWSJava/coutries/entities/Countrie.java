@@ -1,4 +1,4 @@
-package com.example.demoWSJava.coutries.models;
+package com.example.demoWSJava.coutries.entities;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
